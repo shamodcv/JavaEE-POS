@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="pos-system-javaEE:war">
+    <output-path>$PROJECT_DIR$/BackEnd/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>pos-system-javaEE</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="pos-system-javaEE-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="pos-system-javaEE:war exploded" />
+    </root>
+  </artifact>
+</component>
